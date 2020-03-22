@@ -12,6 +12,7 @@ before_script:
 script:
   - yarn run build
   - cd ./demo
+  - yarn
   - yarn run build
 
 deploy:
