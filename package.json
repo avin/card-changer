@@ -1,0 +1,25 @@
+{
+  "name": "card-changer",
+  "version": "0.1.1",
+  "license": "MIT",
+  "source": "src/index.js",
+  "main": "dist/card-changer.js",
+  "module": "dist/card-changer.module.js",
+  "unpkg": "dist/card-changer.umd.js",
+  "files": [
+    "dist",
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "microbundle",
+    "dev:lib": "microbundle watch",
+    "dev:demo": "cd demo && yarn run dev",
+    "dev": "run-p dev:*"
+  },
+  "devDependencies": {
+    "microbundle": "^0.11.0",
+    "node-sass": "^4.13.1",
+    "npm-run-all": "^4.1.5"
+  }
+}
