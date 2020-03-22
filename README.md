@@ -84,9 +84,9 @@ cardChanger.on("change", (activeCardId) => {
 
 ### Methods
 
-- `rotate ()` - rotate active card
-- `on (event, handler)` - add handler for card-changer event
-- `off (event, handler)` - remove handler for card-changer event
+- `rotate()` - rotate active card
+- `on(event, handler)` - add handler for card-changer event
+- `off(event, handler)` - remove handler for card-changer event
 
 To set an active card id - assign it to `activeCardId` field:
 
