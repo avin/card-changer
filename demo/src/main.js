@@ -1,4 +1,4 @@
-import CardChanger from '../../dist/card-changer';
+import CardChanger from 'card-changer';
 
 const makeCardFront = ({ pan, color }) =>
   `

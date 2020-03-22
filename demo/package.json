@@ -8,7 +8,8 @@
   },
   "dependencies": {
     "parcel-bundler": "^1.12.4",
-    "sass": "^1.26.3"
+    "sass": "^1.26.3",
+    "card-changer": "link:.."
   },
   "devDependencies": {
     "prettier": "^2.0.0"
