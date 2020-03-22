@@ -9,7 +9,6 @@ function CardChanger(
     dotsNavigation = true,
     keepChangeOrder = true,
     animationSpeed = 150,
-    cardTemplate,
     cards,
     activeCardId,
     unRotateOnChange = true,
@@ -64,8 +63,7 @@ function CardChanger(
     return escape(result.replace(/\s&/g, ''));
   }
 
-  cardTemplate =
-    cardTemplate ||
+  const cardTemplate =
     `
     <div class="${cn('card')}" data-card-id="{{CARD_ID}}"> 
       <div class="${cn('card-form')}">
